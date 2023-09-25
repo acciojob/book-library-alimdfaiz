@@ -1,16 +1,24 @@
 /*  your css code here. If applicable */
-body{
+.book-library{
 	display:flex;
-	align-item:centre;
+	flex-direction:column;
+	align-items:center;
 	justify-content:center;
 	background-color:#f8f8f8;
 }
-.book>p{
+.eg3>p{
 	color:#777777;
 }
 .eg2{
 	background-color:#2ecc71;
 	text-align:center;
 	color:white;
-	
+	width:100%;
+}
+.book{
+	display:flex;
+	justify-content:center;
+}
+.eg3{
+	align-self:flex-start;
 }
