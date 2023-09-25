@@ -1,9 +1,5 @@
 /*  your css code here. If applicable */
 .book-library{
-	display:flex;
-	flex-direction:column;
-	align-items:center;
-	justify-content:center;
 	background-color:#f8f8f8;
 }
 .eg3>p{
@@ -15,10 +11,19 @@
 	color:white;
 	width:100%;
 }
-.book{
+/* .book{
 	display:flex;
 	justify-content:center;
-}
+} */
 .eg3{
 	align-self:flex-start;
+}
+.book{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+h1{
+	text-align:center;
 }
